@@ -18,7 +18,7 @@ host_url = 'https://book.douban.com'
 user_agent = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0'
 headers = {'User-Agent': user_agent}
 
-# sess.proxies = {'http': 'http://117.57.56.60:8998'}
+sess.proxies = {'http': 'http://117.57.56.60:8998'}
 sess.headers = headers
 logging.basicConfig(level=logging.DEBUG)
 
